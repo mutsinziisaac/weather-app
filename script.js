@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit', (e) => {
 
 function getWeatherData(location) {
   const apiKey = 'fd5c1d7819c949a1bbc213146233007';
-  const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
+  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
 
   showLoading();
 
